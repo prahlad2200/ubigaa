@@ -20,7 +20,7 @@
     line-height: 36x;
 } 
 .order_item .item_qty{
-    
+  position: relative; 
 }
 .order_item .item_price{
     font-size: 30px;
@@ -181,11 +181,13 @@ html {
       }
   
   .cursor {
-    background-color:rgba(255,255,255,0.1);
+    /* background-color:rgba(255,255,255,0.1); */
+    background-color:rgba(0, 0, 0, 0.1);
     width:80px;
     height:80px;
     border-radius:50%;
-    box-shadow:inset 0px 0px 25px rgba(255,255,255,0.7);
+    /* box-shadow:inset 0px 0px 25px rgba(255,255,255,0.7); */
+    box-shadow:inset 0px 0px 25px rgba(0,0,0,0.7);
     position:absolute;
     z-index:200;
     pointer-events:none;
