@@ -16,31 +16,56 @@
   padding: 30px 0px 30px 0px;
 }
 .order_item .item_name{ 
-font-size: 25px;
-line-height: 36px;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  font-size: 25px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 } 
 .order_item .item_qty{
-position: relative;
-height: 100px;
+  position: relative;
+  height: 100px;
 }
 .order_item .item_price{
-font-size: 25px;
-line-height: 36px;
-padding-left: 30px;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  font-size: 25px;
+  line-height: 36px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 50px
 }
 .ordere_submit img { width: 100%;}
+
 .order_item .item_qty_seprator {
   border-bottom: 2px solid #FB3A57;
   position: absolute;
   width: 90%;
   bottom: -30px;
-  left: 5%;}
+  left: 5%;
+}
+ 
+
+.ordere_submit{background-color: #30aded;color: #fff;padding: 15px;}
+.ordere_submit .total_row{
+
+}
+.ordere_submit .total_label {font-size: 18px;float: left;display: inline-block;} 
+.ordere_submit .total_label_small {font-size: 14px;float: left;display: inline-block;line-height: 27px;margin-left: 10px;} 
+.ordere_submit .total_amount{font-size: 18px;float: right;line-height: 25px;}
+.ordere_submit button { width: 80%; height: 40px; border: none; background: #fff; color: #30aded; border-radius: 20px; display: block; margin: 0 auto; font-size: 16px; font-weight: 600; -webkit-box-shadow: 2px 2px 7px 7px rgba(14,166,242,1); -moz-box-shadow: 2px 2px 7px 7px rgba(14,166,242,1); box-shadow: 2px 2px 7px 7px rgba(14,166,242,1); }
+.ordere_submit p { display: inline-block; padding: 0px; margin: 0; margin-top: 10px; margin-bottom: 10px; } 
+@media (min-width: 768px)
+{
+  .modal-lg {
+      width: 1000px;
+      max-width: 1000px;
+  }
+}
+
+
+
 html {
 --spinner-box-width: 100px;
 --spinner-box-height: 100px; 
