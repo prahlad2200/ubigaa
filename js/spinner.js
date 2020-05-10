@@ -232,7 +232,7 @@ class Spinner
             NewTimer = this.InitialTimer;
         }
     }
-    decreaseTimer = function () {
+    decreaseTimer() {
         if (this.NewTimer > this.minTimerValue) {
             this.NewTimer = this.NewTimer / this.increment;
             console.log("timer: " + this.NewTimer);
